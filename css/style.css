@@ -7,7 +7,11 @@ footer {
   background-color: #a1f1d6;
 }
 
-h1,
+h1 {
+  color: #f66dd5;
+  font-family: 'Modak', cursive;
+}
+
 h2,
 h3 {
   color: #009ad6;
