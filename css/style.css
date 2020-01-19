@@ -1,6 +1,8 @@
 /* tag selectors */
 body {
   background-color: #fce051;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 nav,
@@ -8,22 +10,23 @@ footer {
   background-color: #a1f1d6;
 }
 
+h1,
+h2 {
+  font-family: 'Modak', cursive;
+}
+
 h1 {
   color: #f66dd5;
-  font-family: 'Modak', cursive;
+  font-size: 5em;
 }
 
-h2,
-h3 {
+h2 {
   color: #009ad6;
-  font-family: 'Modak', cursive;
+  font-size: 1.6em;
 }
 
-p,
-ol,
-li,
-blockquote {
-  font-family: 'Noto Sans', sans-serif;
+ul {
+  list-style-type: circle;
 }
 
 /* id selectors */
