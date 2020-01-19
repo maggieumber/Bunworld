@@ -1,3 +1,4 @@
+/* tag selectors */
 body {
   background-color: #fce051;
 }
@@ -24,3 +25,10 @@ li,
 blockquote {
   font-family: 'Noto Sans', sans-serif;
 }
+
+/* id selectors */
+#lil-baker-letter {
+  background-color: #ffffff;
+}
+
+/* class selectors */
