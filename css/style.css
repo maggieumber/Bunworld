@@ -11,8 +11,10 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Modak', cursive;
+  letter-spacing: 0.08em;
 }
 
 h1 {
@@ -27,6 +29,29 @@ h2 {
 
 ul {
   list-style-type: circle;
+}
+
+a {
+  font-family: 'Modak', cursive;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #009ad6;
+}
+
+a:visited {
+  color: #858C7B;
+}
+
+a:hover {
+  color: #151814;
+  background-color: #DFFFD6;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+a:active {
+  background-color: #F3FFE1;
 }
 
 /* id selectors */
