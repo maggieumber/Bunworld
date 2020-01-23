@@ -32,6 +32,12 @@ ul {
   list-style-type: circle;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 a {
   font-family: 'Modak', cursive;
   letter-spacing: 0.08em;
