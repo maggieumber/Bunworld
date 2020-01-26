@@ -64,9 +64,30 @@ a:active {
 /* id selectors */
 #lil-baker-letter {
   background-color: #ffffff;
+  font-style: italic;
+  width: 20%;
+  border-style: dashed;
+  border-color: #f66dd5;
+  padding: 10px;
 }
 
 /* class selectors */
+.blog {
+  background-color: #ffffff;
+  width: 75%;
+  border-style: dashed;
+  border-color: #f66dd5;
+  padding: 25px;
+}
+
+.players {
+  width: 10%;
+}
+
+.photo {
+  width: 25%;
+}
+
 .responsive-vid {
   position: relative;
   padding-bottom: 56.25%;
