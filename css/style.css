@@ -65,7 +65,7 @@ a:active {
 #lil-baker-letter {
   background-color: #ffffff;
   font-style: italic;
-  width: 20%;
+  width: 600px;
   border-style: dashed;
   border-color: #f66dd5;
   padding: 10px;
@@ -74,18 +74,22 @@ a:active {
 /* class selectors */
 .blog {
   background-color: #ffffff;
-  width: 75%;
+  width: 800px;
   border-style: dashed;
   border-color: #f66dd5;
   padding: 25px;
 }
 
+.logo {
+  width: 16px;
+}
+
 .players {
-  width: 10%;
+  width: 200px;
 }
 
 .photo {
-  width: 25%;
+  width: 600px;
 }
 
 .responsive-vid {
