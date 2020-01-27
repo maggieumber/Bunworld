@@ -5,6 +5,14 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+header {
+  font-family: 'Modak', cursive;
+  font-size: 8em;
+  text-align: center;
+  border-style: dashed;
+  border-color: #a1f1d6;
+}
+
 nav,
 footer {
   background-color: #a1f1d6;
