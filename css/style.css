@@ -29,6 +29,7 @@ h3 {
 h1 {
   color: #f66dd5;
   font-size: 5em;
+  text-align: center;
 }
 
 h2 {
@@ -79,10 +80,17 @@ a:active {
   padding: 10px;
 }
 
+#home-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+
 /* class selectors */
 .blog {
   background-color: #ffffff;
-  width: 800px;
+  width: 90%;
   border-style: dashed;
   border-color: #f66dd5;
   padding: 25px;
