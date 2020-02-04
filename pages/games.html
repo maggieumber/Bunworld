@@ -13,6 +13,8 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
   <link href="/css/style.css" rel="stylesheet" type="text/css">
   <link href="/myicon.png" rel="icon" type="image/png">
+  <!-- Links to JavaScript files -->
+  <script src="/scripts/scripts.js"></script>
 </head>
 
 <body>
@@ -35,7 +37,7 @@
         frameborder="0" scrolling="no" allowfullscreen></iframe>
       <p>Score <strong>100</strong> points and you win!</p>
       <p>The shapes that Bun knows are:</p>
-      <ul>
+      <ul class="oneLine">
         <li>circle</li>
         <li>triangle</li>
         <li>square</li>
@@ -61,6 +63,7 @@
           <input type="radio" name="answerq1" value="answer3"> Bun <br>
           <input type="radio" name="answerq1" value="answer4"> bad frend <br>
           <p>How old is Bun?</p><input type="number" name="quiz" min="1" max="10" step="1">
+          <p><button onclick="finishFunction()">Finish</button></p>
         </form>
       </div>
     </main>
