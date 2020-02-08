@@ -18,13 +18,18 @@ nav {
   position: fixed;
   top: 0px;
   left: 0px;
+  background-color: #a1f1d6;
+  text-align: center;
   width: 100%;
 }
 
-nav,
 footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
   background-color: #a1f1d6;
   text-align: center;
+  width: 100%;
 }
 
 h1,
