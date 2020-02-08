@@ -8,10 +8,10 @@ body {
 
 header {
   font-family: 'Modak', cursive;
-  font-size: 800%;
+  font-size: 5em;
   text-align: center;
-  border-style: dashed;
-  border-color: #a1f1d6;
+  background-color: #f66dd5;
+  border: 0.05em dashed #a1f1d6;
 }
 
 nav,
@@ -29,7 +29,7 @@ h3 {
 
 h1 {
   color: #f66dd5;
-  font-size: 5em;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -92,8 +92,7 @@ a:active {
 .blog {
   background-color: #ffffff;
   width: 90%;
-  border-style: dashed;
-  border-color: #f66dd5;
+  border: 0.2em dashed #f66dd5;
   padding: 25px;
 }
 
@@ -102,8 +101,6 @@ a:active {
 }
 
 .players {
-  background-color: #a1f1d6;
-  border-radius: 8em;
   padding: 10px 10px 10px 10px;
 }
 
