@@ -7,18 +7,21 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
   font-family: 'Modak', cursive;
-  font-size: 5em;
-  text-align: center;
-  background-color: #f66dd5;
-  border: 4px dashed #a1f1d6;
-  border-radius: 4px;
+  color: #f66dd5;
+  font-size: 1.5em;
+  width: 100%;
 }
 
 nav {
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 1;
   background-color: #a1f1d6;
   text-align: center;
   width: 100%;
@@ -100,6 +103,7 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   width: 50em;
+  padding: 50px;
 }
 
 /* class selectors */
@@ -113,6 +117,11 @@ a:active {
 
 .logo {
   width: 16px;
+}
+
+.centerImage {
+  text-align: center;
+  margin: 100px;
 }
 
 .frends {
