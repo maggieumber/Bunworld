@@ -1,7 +1,7 @@
 /* tag selectors */
 body {
   margin: 2.5% 10% 2.5% 10%;
-  background-color: #fce051;
+  background-color: #f66dd5;
   font-size: 16px;
   font-family: 'Noto Sans', 'Roboto', sans-serif;
 }
@@ -44,7 +44,7 @@ h3 {
 }
 
 h1 {
-  color: #f66dd5;
+  color: #151814;
   font-size: 3em;
   text-align: center;
   margin-top: 100px;
@@ -109,6 +109,7 @@ a:active {
 }
 
 .frends {
+  background-color: #fce051;
   padding: 30px 15px;
   margin: 10px;
   border: 2px solid #151814;
