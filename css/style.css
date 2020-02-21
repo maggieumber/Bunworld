@@ -13,7 +13,8 @@ header {
   z-index: 2;
   font-family: 'Modak', cursive;
   color: #f66dd5;
-  font-size: 1.5em;
+  font-size: 1.75em;
+  letter-spacing: 0.08em;
 }
 
 nav {
@@ -46,6 +47,7 @@ h1 {
   color: #f66dd5;
   font-size: 3em;
   text-align: center;
+  margin-top: 100px;
 }
 
 h2 {
