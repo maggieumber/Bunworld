@@ -57,6 +57,11 @@ h2 {
 
 ul {
   list-style-type: circle;
+  display: inline;
+}
+
+li {
+  display: inline;
 }
 
 img {
