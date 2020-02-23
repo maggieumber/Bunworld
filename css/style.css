@@ -144,6 +144,14 @@ a:active {
   width: 600px;
 }
 
+.shopCover {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  margin: 2.5% auto;
+  max-width: 700px;
+}
+
 .gallery {
   margin-top: 20px;
   display: flex;
@@ -158,5 +166,5 @@ a:active {
 .gallery-item .thumbnail {
   border: 2px solid #151814;
   border-radius: 8px;
-  width: 300px;
+  width: 400px;
 }
