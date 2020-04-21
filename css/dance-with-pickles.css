@@ -1,0 +1,17 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  font-size: 400%;
+  text-align: center;
+}
+
+p {
+  font-size: 200%;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
