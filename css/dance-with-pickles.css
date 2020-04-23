@@ -1,14 +1,26 @@
+/* headline & bold font */
+@font-face {
+  font-family: 'Sniglet-master';
+  src: url('/fonts/sniglet-master/webfonts/Sniglet-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
 body {
+  font-family: 'Noto Sans', 'Roboto', sans-serif;
   background-color: powderblue;
 }
 
 h1 {
-  font-size: 400%;
+  font-family: Sniglet-master, cursive;
+  font-size: 550%;
+  font-style: normal;
   text-align: center;
 }
 
 p {
-  font-size: 200%;
+  font-size: 125%;
+  font-style: normal;
   text-align: center;
 }
 
@@ -19,4 +31,26 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-size: 125%;
+  font-style: normal;
+  text-align: center;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  width: 250px;
 }
