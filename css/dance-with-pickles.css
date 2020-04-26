@@ -7,15 +7,33 @@
 }
 
 body {
+  margin: 2.5% auto;
+  max-width: 1500px;
   font-family: 'Noto Sans', 'Roboto', sans-serif;
   background-color: powderblue;
 }
 
-h1 {
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+h1,
+h2 {
   font-family: Sniglet-master, cursive;
-  font-size: 550%;
   font-style: normal;
   text-align: center;
+}
+
+h1 {
+  font-size: 550%;
+}
+
+h2 {
+  font-size: 350%;
 }
 
 p {
