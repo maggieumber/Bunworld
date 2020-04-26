@@ -46,6 +46,10 @@ a {
   color: black;
 }
 
+strong {
+  text-transform: uppercase;
+}
+
 img {
   max-width: 100%;
   height: auto;
