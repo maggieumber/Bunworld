@@ -93,8 +93,6 @@ a:active {
 
 
 /* class selectors */
-.blognav {}
-
 .blognav,
 .blogpost {
   background-color: #fce051;

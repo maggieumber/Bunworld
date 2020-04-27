@@ -7,8 +7,10 @@
 }
 
 body {
-  margin: 2.5% auto;
+  /* margin: 2.5% auto; */
   max-width: 1500px;
+  padding: 25px;
+  margin: 10px;
   font-family: 'Noto Sans', 'Roboto', sans-serif;
   background-color: powderblue;
 }
@@ -29,15 +31,15 @@ h2 {
 }
 
 h1 {
-  font-size: 550%;
+  font-size: 300%;
 }
 
 h2 {
-  font-size: 350%;
+  font-size: 200%;
 }
 
 p {
-  font-size: 125%;
+  font-size: 100%;
   font-style: normal;
   text-align: center;
 }
