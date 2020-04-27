@@ -46,6 +46,7 @@ p {
 
 a {
   color: black;
+  font-family: Sniglet-master, cursive;
 }
 
 strong {
@@ -59,7 +60,7 @@ img {
 }
 
 figcaption {
-  font-size: 125%;
+  font-size: 100%;
   font-style: normal;
   text-align: center;
 }
