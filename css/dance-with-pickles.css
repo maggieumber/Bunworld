@@ -1,3 +1,9 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 /* headline & bold font */
 @font-face {
   font-family: 'Sniglet-master';

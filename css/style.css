@@ -1,26 +1,60 @@
-/* tag selectors */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* headline & bold font */
+@font-face {
+  font-family: 'Sniglet-master';
+  src: url('/fonts/sniglet-master/webfonts/Sniglet-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
 body {
   margin: 2.5% auto;
+  padding: 20px;
   max-width: 1500px;
   background-color: #f66dd5;
   font-size: 16px;
   font-family: 'Noto Sans', 'Roboto', sans-serif;
 }
 
-header {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 2;
-  font-family: 'Modak', cursive;
-  color: #f66dd5;
-  font-size: 1.5em;
-  letter-spacing: 0.08em;
+h1,
+h2,
+h3,
+header,
+nav,
+a {
+  font-family: Sniglet-master, cursive;
+  font-style: normal;
+  letter-spacing: 0.05em;
 }
 
+header,
 nav {
   position: fixed;
   top: 0px;
+  padding: 20px;
+}
+
+header {
+  left: 10px;
+  z-index: 2;
+}
+
+header a {
+  color: #f66dd5;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+header a:hover {
+  text-transform: lowercase;
+}
+
+nav {
   left: 0px;
   z-index: 1;
   background-color: #a1f1d6;
@@ -40,59 +74,49 @@ footer {
 h1,
 h2,
 h3 {
-  font-family: 'Modak', cursive;
-  letter-spacing: 0.08em;
+  color: #151814;
 }
 
 h1 {
-  color: #151814;
   font-size: 3em;
   text-align: center;
   margin-top: 100px;
 }
 
 h2 {
-  color: #009ad6;
   font-size: 1.6em;
+  padding: 20px 0px 0px 20px;
 }
 
-ul,
+h3 {
+  font-size: 1.3em;
+  padding: 20px 0px 0px 20px;
+}
+
 li {
-  list-style-type: circle;
   display: inline;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
 a {
-  font-family: 'Modak', cursive;
-  letter-spacing: 0.08em;
   text-decoration: none;
   text-transform: lowercase;
   color: #009ad6;
+  padding: 5px;
 }
 
 a:hover {
   color: #151814;
-  background-color: #DFFFD6;
   text-transform: uppercase;
-  font-weight: normal;
 }
 
 a:active {
   background-color: #F3FFE1;
 }
 
-/* id selectors */
+p {
+  padding: 20px;
+}
 
-
-
-
-/* class selectors */
 .blognav,
 .blogpost {
   background-color: #fce051;
@@ -102,11 +126,7 @@ a:active {
   border-radius: 20px 20px 5px 5px;
 }
 
-.logo {
-  width: 16px;
-}
-
-.frends {
+.yellowCard {
   background-color: #fce051;
   padding: 30px 15px;
   margin: 10px;
@@ -121,6 +141,16 @@ a:active {
   /* 16:9 */
   padding-top: 25px;
   height: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.logo {
+  width: 16px;
 }
 
 .responsive-vid iframe,
