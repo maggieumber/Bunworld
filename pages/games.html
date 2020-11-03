@@ -9,80 +9,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- LINKS TO CSS FILE ("STYLESHEET"), GOOGLE FONTS AND SITE ICON -->
-  <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
   <link href="/css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
   <link href="/myicon.png" rel="icon" type="image/png">
   <!-- Links to JavaScript files -->
   <script src="/scripts/scripts.js"></script>
 </head>
 
 <body>
-  <!-- header + nav bar -->
-  <header>BW</header>
+  <!-- Header -->
+  <header>
+    <ul>
+      <li><a href="/index.html">BW</a></li>
+    </ul>
+  </header>
+
+  <!-- Nav -->
   <nav>
-    <p><img class="logo" src="/img/logo.png" alt="bunworld logo"> <a href="/index.html">Home</a> | <a
-        href="/pages/games.html">Games</a> | <a href="/pages/shop.html">Shop</a> | <a
-        href="/pages/blog.html">Blog</a><img class="logo" src="/img/logo.png" alt="bunworld logo"></p>
+    <a href="/pages/frends.html">Frends</a>
+    <a href="/pages/games.html">Games</a>
+    <a href="/pages/shop.html">Shop</a>
+    <a href="/pages/blog.html">Blog</a>
   </nav>
 
-  <main>
-    <h1>Games</h1>
-
-    <article class="frends">
-      <h2>Dance with Pickles</h2>
-      <h3>Adventure Game</h3>
-      <img src="/img/Pickles/Maggie-Umber-Dance-with-Pickles-Pickles.png" alt="Green Pickles character">
-      <p>Hi, I'm Pickles! Let's <a href="/pages/Pickles/dance-with-pickles.html">teach my friends to dance!</a></p>
-    </article>
-
-    <article class="frends">
-      <h2>Name a Shape!</h2>
-      <iframe src="https://scratch.mit.edu/projects/72904922/embed" allowtransparency="true" width="485" height="402"
-        frameborder="0" scrolling="no" allowfullscreen></iframe>
-      <p>Score <strong>100</strong> points and you win!</p>
-      <p>The shapes that Bun knows are:</p>
-      <ul class="oneLine">
-        <li>circle |</li>
-        <li>triangle |</li>
-        <li>square |</li>
-        <li>rectangle |</li>
-        <li>pentagram (star) |</li>
-        <li>pentagon |</li>
-        <li>hexagon |</li>
-        <li>septagon (heptagon) |</li>
-        <li>octagon |</li>
-        <li>diamond (rhombus) |</li>
-        <li>nonagon |</li>
-        <li>decagon |</li>
-        <li>hendecagon (undecagon) |</li>
-        <li>heart |</li>
-        <li>dodecagon</li>
-      </ul>
-    </article>
-
-    <div class="frends">
-      <h2>Bunworld Quiz</h2>
-      <form>
-        <p>Your Name:</p><input type="text" name="answer" size="30"> <br><br>
-        <p>Which player is in love with Dog?</p>
-        <input type="radio" name="answerq1" value="answer1"> lil Baker <br>
-        <input type="radio" name="answerq1" value="answer2"> Piper <br>
-        <input type="radio" name="answerq1" value="answer3"> Bun <br>
-        <input type="radio" name="answerq1" value="answer4"> bad frend <br>
-        <p>How old is Bun?</p><input type="number" name="quiz" min="1" max="10" step="1">
-        <p><button onclick="finishFunction()">Finish</button></p>
-        <p>or</p>
-      </form>
-      <div id="appear" style="display: none">
-        <img src="/img/Bunworld-Maggie-Umber-Frends-Piper.jpg">
+  <!-- Main -->
+  <h1>Games</h1>
+  <div class="yellowCard">
+    <div>
+      <div class="gallery">
+        <!-- Game 1 -->
+        <figure class="gallery-item">
+          <h2>Dance with Pickles</h2>
+          <p>Adventure Game</p>
+          <a href="/pages/Pickles/dance-with-pickles.html">
+            <img class="thumbnail"
+              src="/img/Pickles/Maggie-Umber-Dance-with-Pickles-friends-arrive-Kombucha-vid-chat.png"
+              alt="Creatures inside Kombucha drink"></a>
+          <figcaption><small>Begin adventure --><a href="/pages/Pickles/dance-with-pickles.html">YES</a></small>
+          </figcaption>
+        </figure>
+        <!-- Game 2 -->
+        <figure class="gallery-item">
+          <h2>Name a Shape!</h2>
+          <p>Animated Quiz</p>
+          <iframe src="https://scratch.mit.edu/projects/72904922/embed" allowtransparency="true" width="385"
+            height="325" frameborder="0" scrolling="no" allowfullscreen></iframe>
+          <figcaption><small>
+              <p>Score <strong>100</strong> points and you win! Click green flag to play!</p>
+            </small>
+          </figcaption>
+        </figure>
       </div>
-      <button onclick="show_hide()">Play Hide & Sneak</button>
     </div>
+  </div>
   </main>
-
-  <!-- aside -->
-  <aside></aside>
 
   <!-- footer -->
   <footer>
